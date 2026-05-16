@@ -1,8 +1,6 @@
 ## PyBasicObfuscator
 Basic Python obfuscation unpacker for reversing zlib/base64 wrapped payloads and extracting readable Python source code.
 
----
-
 ## Overview
 
 PyBasicDeobfuscator is a lightweight Python deobfuscation utility designed for analyzing simple obfuscated Python scripts.
