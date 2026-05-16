@@ -12,8 +12,6 @@ The tool attempts to:
 - Unpack multiple layers automatically
 - Recover readable Python source code
 
----
-
 ## Supported Techniques
 
 The tool currently supports common lightweight obfuscation methods such as:
@@ -33,8 +31,6 @@ exec((b'...'))
 exec(zlib.decompress(base64.b64decode(...)))
 ```
 
----
-
 ## Usage
 
 ### Run the script
@@ -47,8 +43,6 @@ Then enter the path to the obfuscated `.py` file.
 
 You can also drag & drop the file directly into the console window.
 
----
-
 ## Output
 
 The unpacked file will be created automatically:
@@ -58,8 +52,6 @@ original.py
 →
 original_deobfuscated.py
 ```
-
----
 
 ## Example
 
@@ -76,8 +68,6 @@ import os
 
 print("Hello World")
 ```
-
----
 
 ## Requirements
 
