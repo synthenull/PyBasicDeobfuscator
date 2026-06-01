@@ -64,8 +64,6 @@ exec((b'...'))
 Output:
 
 ```python
-import os
-
 print("Hello World")
 ```
 
