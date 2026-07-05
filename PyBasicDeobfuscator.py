@@ -1,4 +1,4 @@
-# developed by akgvnx - github.com/akgvnx
+# developed by synthic0 - github.com/synthic0
 
 from __future__ import annotations
 import ast
