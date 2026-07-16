@@ -124,7 +124,7 @@ def deobfuscate_file(
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     header = (
-        "# Unpacked with https://github.com/akgvnx/PyBasicDeobfuscator\n"
+        "# Unpacked with https://github.com/synthenull/PyBasicDeobfuscator\n"
         f"# Python Version: {'.'.join(map(str, sys.version_info[:3]))}\n"
     )
     output_path.write_text(header + result, encoding="utf-8", errors="replace")
@@ -140,7 +140,7 @@ def main() -> int:
     os.system("cls")
     os.system("title ")
     os.system("color b")
-    print("\n [^] Welcome to Akgvnx Basic Unpacker!\n")
+    print("\n [^] Welcome to SyntheNull - Basic Unpacker!\n")
     print(" [>] Enter the path to the obfuscated .py file.")
     print(" [>] (You can drag and drop the file into this window.)\n")
     input_path = prompt_py_path(" [>] Path: ")
