@@ -1,4 +1,4 @@
-# developed by synthicnull - github.com/synthicnull
+# developed by synthenull - github.com/synthenull
 
 from __future__ import annotations
 import ast
